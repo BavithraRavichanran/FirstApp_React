@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import  Greet  from './Components/greets'
+import  Welcome  from './Components/welcome'
+import  Message from  './Components/message'
+import Counter from './Components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         "Hello World"
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Counter/>
+    {/* <Greet name= "Bavi"/>
+    <Greet name= "Praveen"/>
+
+    <Welcome name= "thra"/>
+      <Message/> */}
     </div>
   );
 }
